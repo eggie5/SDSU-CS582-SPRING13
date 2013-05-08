@@ -1,0 +1,229 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC5682EB172C7AD100C34216 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AC5682EA172C7AD100C34216 /* main.c */; };
+		AC5682ED172C7AD100C34216 /* rtl_fm_copy.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC5682EC172C7AD100C34216 /* rtl_fm_copy.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC5682E5172C7AD100C34216 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AC5682ED172C7AD100C34216 /* rtl_fm_copy.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC5682E7172C7AD100C34216 /* rtl_fm_copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rtl_fm_copy; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5682EA172C7AD100C34216 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		AC5682EC172C7AD100C34216 /* rtl_fm_copy.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = rtl_fm_copy.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC5682E4172C7AD100C34216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC5682DE172C7AD100C34216 = {
+			isa = PBXGroup;
+			children = (
+				AC5682E9172C7AD100C34216 /* rtl_fm_copy */,
+				AC5682E8172C7AD100C34216 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC5682E8172C7AD100C34216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC5682E7172C7AD100C34216 /* rtl_fm_copy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC5682E9172C7AD100C34216 /* rtl_fm_copy */ = {
+			isa = PBXGroup;
+			children = (
+				AC5682EA172C7AD100C34216 /* main.c */,
+				AC5682EC172C7AD100C34216 /* rtl_fm_copy.1 */,
+			);
+			path = rtl_fm_copy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC5682E6172C7AD100C34216 /* rtl_fm_copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5682F0172C7AD100C34216 /* Build configuration list for PBXNativeTarget "rtl_fm_copy" */;
+			buildPhases = (
+				AC5682E3172C7AD100C34216 /* Sources */,
+				AC5682E4172C7AD100C34216 /* Frameworks */,
+				AC5682E5172C7AD100C34216 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rtl_fm_copy;
+			productName = rtl_fm_copy;
+			productReference = AC5682E7172C7AD100C34216 /* rtl_fm_copy */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC5682DF172C7AD100C34216 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alex Egg";
+			};
+			buildConfigurationList = AC5682E2172C7AD100C34216 /* Build configuration list for PBXProject "rtl_fm_copy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC5682DE172C7AD100C34216;
+			productRefGroup = AC5682E8172C7AD100C34216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC5682E6172C7AD100C34216 /* rtl_fm_copy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC5682E3172C7AD100C34216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5682EB172C7AD100C34216 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC5682EE172C7AD100C34216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC5682EF172C7AD100C34216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC5682F1172C7AD100C34216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = "-lrtlsdr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC5682F2172C7AD100C34216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = "-lrtlsdr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC5682E2172C7AD100C34216 /* Build configuration list for PBXProject "rtl_fm_copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5682EE172C7AD100C34216 /* Debug */,
+				AC5682EF172C7AD100C34216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5682F0172C7AD100C34216 /* Build configuration list for PBXNativeTarget "rtl_fm_copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5682F1172C7AD100C34216 /* Debug */,
+				AC5682F2172C7AD100C34216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC5682DF172C7AD100C34216 /* Project object */;
+}
