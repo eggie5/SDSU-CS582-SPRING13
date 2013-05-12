@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC26FBDC1724E6A8008A4F86 /* iq.c in Sources */ = {isa = PBXBuildFile; fileRef = AC26FBDB1724E6A8008A4F86 /* iq.c */; };
 		ACB6F376172116D000C1D29E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ACB6F375172116D000C1D29E /* main.c */; };
 		ACB6F378172116D000C1D29E /* rtl_fm_demod.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACB6F377172116D000C1D29E /* rtl_fm_demod.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AC09B80B1725C6F9008B9076 /* iq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iq.h; sourceTree = "<group>"; };
+		AC26FBDB1724E6A8008A4F86 /* iq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iq.c; sourceTree = "<group>"; };
 		ACB6F372172116D000C1D29E /* rtl_fm_demod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rtl_fm_demod; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB6F375172116D000C1D29E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		ACB6F377172116D000C1D29E /* rtl_fm_demod.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = rtl_fm_demod.1; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 			children = (
 				ACB6F375172116D000C1D29E /* main.c */,
 				ACB6F377172116D000C1D29E /* rtl_fm_demod.1 */,
+				AC26FBDB1724E6A8008A4F86 /* iq.c */,
+				AC09B80B1725C6F9008B9076 /* iq.h */,
 			);
 			path = rtl_fm_demod;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB6F376172116D000C1D29E /* main.c in Sources */,
+				AC26FBDC1724E6A8008A4F86 /* iq.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +228,7 @@
 				ACB6F37D172116D000C1D29E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

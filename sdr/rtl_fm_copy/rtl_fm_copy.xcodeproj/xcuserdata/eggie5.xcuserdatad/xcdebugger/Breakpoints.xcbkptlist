@@ -56,17 +56,6 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "rtl_fm_copy/main.c"
-         timestampString = "388817829.856967"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "301"
-         endingLineNumber = "301">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "rtl_fm_copy/main.c"
          timestampString = "388819872.910694"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"

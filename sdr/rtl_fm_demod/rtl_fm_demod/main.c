@@ -7,9 +7,14 @@
 #include <stdlib.h>
 #include <rtl-sdr.h>
 #include <usb.h>
+#include <math.h>
+#include "iq.h"
 
 int main(int argc, const char * argv[])
 {
+    
+//    iqmod();
+//    return 0;
     
     uint32_t count = rtlsdr_get_device_count();
     printf("radio count=%d\n", count);
@@ -74,11 +79,11 @@ int main(int argc, const char * argv[])
     
     FILE *file;
     file = fopen("/Users/eggie5/Development/SDSU-CS582-SPRING13/sdr/rtl_fm_demod/radiosample","w+");
+    
+    //need to IQ demod
     for(int i=0;i<out_block_size;i++)
     {
-        //printf("buffer[%d]=%d\n", i,buffer[i]);
-        fprintf(file,"%d\n",buffer[i]);
-        
+        fprintf(file,"%c\n",buffer[i]);
     }
     fclose(file); /*done!*/
     

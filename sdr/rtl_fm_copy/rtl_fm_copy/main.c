@@ -203,15 +203,15 @@ void low_pass_real(struct fm_state *fm)
 	}
 	fm->signal2_len = i2;
     
-    FILE *file;
-    file = fopen("/Users/eggie5/Development/SDSU-CS582-SPRING13/sdr/fm_demod","w");
-    for(int i=0;i<i2;i++)
-    {
-        //printf("buffer[%d]=%d\n", i,buffer[i]);
-        fprintf(file,"%d\n",fm->signal2[i]);
-        
-    }
-    fclose(file); 
+//    FILE *file;
+//    file = fopen("/Users/eggie5/Development/SDSU-CS582-SPRING13/sdr/fm_demod","w");
+//    for(int i=0;i<i2;i++)
+//    {
+//        //printf("buffer[%d]=%d\n", i,buffer[i]);
+//        fprintf(file,"%d\n",fm->signal2[i]);
+//        
+//    }
+//    fclose(file);
 }
 
 
